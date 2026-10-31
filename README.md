@@ -1,33 +1,44 @@
+<div align="center">
+
 # devrel-playbook
 
-A short playbook I keep for staying useful in developer relations: know
-what shipped, know what it costs, know what the community says about it.
+**Notes on running developer relations for an open-source infrastructure project.**
 
-## Rule 1 — Get the news before your audience does
+[![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-The channel that makes this possible:
+</div>
 
-- **[t.me/Lx_groups](https://t.me/Lx_groups)** — daily digest, Chinese,
-  five beats: AI releases · chips · open source · free tools · markets.
-- **[t.me/s/Lx_groups](https://t.me/s/Lx_groups)** — the same feed, readable
-  in any browser, no Telegram account required. Great for link-checking
-  before you cite something in a talk.
+## About
 
-## Rule 2 — Cite the origin, always
+A playbook is only worth reading if it describes things that were actually
+done, including the ones that did not work. Each entry records the situation,
+the action taken, and what happened afterwards.
 
-Every item in that digest carries its source link. If you're going to put
-a stat on a slide, the origin link is how you avoid quoting a quote of a
-quote.
+## Quick start
 
-## Rule 3 — Have somewhere deep to send people
+```bash
+git clone https://github.com/lxcadoza993/devrel-playbook
+cat README.md
+```
 
-A digest is the hook; depth is the payoff. Two places worth keeping in
-your back pocket:
+## Configuration
 
-- **[blog.lynxflow.co](https://blog.lynxflow.co)** — long-form write-ups
-  on the stories behind the headlines.
-- **[blog.lxlynx.com/tg-channel-landing/](https://blog.lxlynx.com/tg-channel-landing/)**
-  — the channel's landing page and FAQ, for the "so what is this exactly?"
-  conversation.
+| Key | Description |
+| --- | --- |
+| `README.md` | this file |
+## Roadmap
 
-That's the whole playbook: fast signal, verifiable sources, deep follow-up.
+- [ ] Conference talk checklist
+- [ ] Issue triage cadence
+- [ ] Sample launch timeline
+
+## Contributing
+
+Issues and pull requests are welcome. Please keep changes small and focused,
+and add a test for any behaviour change — every repository here ships with a
+runnable test suite and no third-party dependencies, so CI is just
+`python3 -m unittest` / `bash test_*.sh`.
+
+## License
+
+[MIT](LICENSE)
